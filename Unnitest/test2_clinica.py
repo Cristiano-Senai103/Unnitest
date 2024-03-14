@@ -55,7 +55,7 @@ class TestPaciente(unittest.TestCase):
         paciente = Paciente("Luis Carlos Bispo", " 18/10/1999", "123456789")
         self.assertIsInstance(paciente, Paciente)
 
-class TestCrudOperations(unittest.TestCase):
+class TestCrudOperadores(unittest.TestCase):
     def setUp(self):
         criar_tabela_funcionarios()
         criar_tabela_pacientes()
